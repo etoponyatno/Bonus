@@ -8,8 +8,10 @@ public class Bonus {
         } else {
             bonus = 0;
         }
-        System.out.println(bonus);
-
+        int total = currentAccount + income + bonus;
+//      Из задания я не сильно понял что должно в итоге выводиться, в итоге вывожу бонус и общую сумму)
+        System.out.println("Состояние счета: "+total);
+        System.out.println("Бонусных баллов: "+bonus);
 
     }
 }
